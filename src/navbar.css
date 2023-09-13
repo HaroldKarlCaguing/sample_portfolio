@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+   
+}
+a {
+    font-family: monospace;
+    text-decoration: none;
+    font-size: 20px;
+    color: #f4f1f1; 
+    transition: color 0.3s ease; 
+    
+}
+a:hover {
+    color: rgb(12, 238, 174);
+}
+.NavName  {
+    font-family: monospace;
+    color: azure;
+}
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    
+    
+}
+/* hr {
+    margin-top: 0;
+    margin-bottom: 50px;
+    color: rgb(7, 183, 89);
+    display: flex;
+    justify-content: center;
+    
+} */
+#basic-navbar-nav {
+    padding-left: 700px;
+}
+.icon-list {
+    font-size: 26px;
+    color: azure;
+    padding-top: 3px;
+    padding-left: 150px;
+    
+}
+.icon {
+    padding-right: 15px;
+}
+.link {
+    padding-left: 15px;
+}
