@@ -8,6 +8,14 @@ import { faCss3Alt, faHtml5, faJs, faReact } from '@fortawesome/free-brands-svg-
 
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+
+import Col from 'react-bootstrap/Col';
+import Form from 'react-bootstrap/Form';
+import Row from 'react-bootstrap/Row';
+import Container from 'react-bootstrap/Container';
+// import ContactConfig  from "./content_option";
+// import { text } from "@fortawesome/fontawesome-svg-core";
+import Footer from "./footer";
 const About= () => {
     return ( 
         <>
@@ -66,8 +74,7 @@ const About= () => {
                         <Card.Body>
                             <Card.Title className="title">MP2</Card.Title>
                             <Card.Text>
-                            Some quick example text to build on the card title and make up the
-                            bulk of the card's content.
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Possimus, quisquam.
                             </Card.Text>
                             <Button className="btn" variant=""><a href="http://127.0.0.1:5500/"><span>Demo</span></a></Button>
                         </Card.Body>
@@ -75,22 +82,71 @@ const About= () => {
                 </div>
             </div>
         </div>
-        {/* <div className="contact">
-            <form action="" method="post">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" ><br><br>
+        <br /><br /><br /><br /><br />
+        <h1 className="C" id="CNT">CONTACT</h1>
+        <br /><br /><br />
+        <Container className="conteyner">
+            <Row className="containerrow">
+                <Col lg='5' className="mb-5">
+                    <h3 className="color-sec py-4">Get In Touch</h3>
+                    <address>
+                        <strong><span>Email:</span> caguingharoldkarl@gmail.com</strong>
+                        <br />
+                        <br />
+                        <p>
+                            <strong><span>Phone:</span> +63 XXXX XXXXX</strong>
+                        </p>
+                    </address>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, dolores?</p>
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" ><br><br>
+                </Col>
+                <Col lg='7' className="d-flex align-item-center">
+                    <Form className="contact__form w-100">
+                        <Row className="rowwy">
+                            <Col lg='12' className="form-group w-100">
+                                <input 
+                                    className="form-control "
+                                    id="name"
+                                    name="name"
+                                    placeholder="Name"
+                                    type="text"
+                                />
+                            </Col>
+                            <br /><br />
+                            <Col lg='12' className="form-group w-100">
+                                <input 
+                                    className="form-control "
+                                    id="email"
+                                    name="email"
+                                    placeholder="Email"
+                                    type="email" />
+                            
+                            </Col>
+                            
+                            <Col lg='12' className="form-group ">
+                                <textarea
+                                    className="form-control w-100"
+                                     id="message"
+                                    name="message"
+                                    placeholder="Message"
+                                    rows='5'
+                                >                                   
+                                </textarea>
+                            </Col>
+                            
+                            
+                            <Col lg='12' className="form-group ">
+                                <button className="Btn ac_btn w-100" type="submit" id="buttonn"><span>Send</span></button>
+                            </Col>
+                        </Row>
+                    </Form>
+                </Col>
 
-                <label for="comment">Comment:</label><br>
-                <textarea id="comment" name="comment" rows="4" cols="50" ></textarea><br><br>
-
-                <input type="submit" value="" />
-            </form>
-        </div> */}
-
+            </Row>
+        </Container>
+        
         <br /><br /><br /><br />
+        <Footer></Footer>
         </>
      );
 }

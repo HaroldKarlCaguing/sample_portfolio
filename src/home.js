@@ -1,5 +1,6 @@
 import IMG from "./image/zoro.jpg";
 import "./home.css";
+import Image from 'react-bootstrap/Image';
 
 
 
@@ -16,12 +17,12 @@ const Home = () => {
                         <h5>I believe in the power of lifelong learning and personal growth, and I'm excited to share my journey with you.</h5>
                         
                         <br /><br />
-                        
-                        <button className="buttons">Contact Me</button>
-                        
+                        <a href="#CNT">
+                            <button className="buttons" >Contact</button>
+                        </a>
                     </div>
-                    <div className="zoro">
-                            <img src={IMG} alt=""/>
+                    <div className="zoro ">
+                            <Image src={IMG}  roundedCircle  />
                     </div>
                 </div>
             </div>

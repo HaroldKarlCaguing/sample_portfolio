@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavBar from "./navbar";
 import Home from "./home";
 import About from "./aboutme";
+
 // import Contact from "./contact";
 
 
@@ -20,6 +21,7 @@ function App() {
       
     
     </BrowserRouter>
+   
     </>
     
   );

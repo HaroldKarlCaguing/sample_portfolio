@@ -126,5 +126,49 @@ h2 {
    .title {
     color: #0aeeb5;
    }
-  
-   
+.C {
+    padding-top: 50px;
+    padding-left: 550px;
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 50px;
+    color: rgb(0, 14, 14);
+    -webkit-text-stroke: 0.2vw #0aeeb5;
+}
+.mb-5 {
+    font-family: monospace;
+    color: azure;
+}
+span {
+    color: #0aeeb5;
+}
+.ac_btn {
+    font-family: monospace;
+    color: #0aeeb5;
+    border-color: #0aeeb5;
+    background-color: #000;
+    margin-bottom:  15px;
+    
+}
+/* textarea {
+    width: 600px;
+} */
+#name  {
+    margin-bottom:  15px;
+}
+#email {
+    margin-bottom: 15px;
+}
+#buttonn {
+    margin-top: 15px;
+}
+/* #message {
+    padding: 0; */
+/* } */
+.containerrow {
+    padding: 0;
+    margin: 0;
+}
+.color-sec{
+    text-decoration: underline #0aeeb5;
+}
